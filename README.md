@@ -11,6 +11,14 @@
 It is built for SOC analysts, incident responders and DFIR practitioners who need a repeatable, evidence-backed account of what happened in a capture: documented, verifiable and ready to hand over, rather than a pile of raw tshark output.
 
 ---
+## How to use
+
+Run WireBrief against any capture file:
+
+```bash
+python3 wirebrief.py capture.pcapng -o report_out
+```
+
 
 ## Why this exists
 
